@@ -1,0 +1,311 @@
+{
+  "관로": {
+    "CC": {
+      "name_kor": "균열원주",
+      "name_eng": "Crack, Circumferential",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 25, "score_flxbl": 40 },
+        "M": { "score_rigid": 10, "score_flxbl": 15 },
+        "S": { "score_rigid": 3, "score_flxbl": 5 }
+      }
+    },
+    "CL": {
+      "name_kor": "균열길이",
+      "name_eng": "Crack, Longitudinal",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 35, "score_flxbl": 40 },
+        "M": { "score_rigid": 12, "score_flxbl": 15 },
+        "S": { "score_rigid": 4, "score_flxbl": 5 }
+      }
+    },
+    "CM": {
+      "name_kor": "균열복합",
+      "name_eng": "Crack, Multiple",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 50, "score_flxbl": 45 },
+        "M": { "score_rigid": 30, "score_flxbl": 20 },
+        "S": { "score_rigid": 9, "score_flxbl": 10 }
+      }
+    },
+    "SD": {
+      "name_kor": "표면손상",
+      "name_eng": "Surface Damage",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 60, "score_flxbl": 45 },
+        "M": { "score_rigid": 35, "score_flxbl": 20 },
+        "S": { "score_rigid": 20, "score_flxbl": 10 }
+      }
+    },
+    "BC": {
+      "name_kor": "좌굴",
+      "name_eng": "Buckling",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": null, "score_flxbl": 70 },
+        "M": { "score_rigid": null, "score_flxbl": 40 },
+        "S": { "score_rigid": null, "score_flxbl": 20 }
+      }
+    },
+    "LD": {
+      "name_kor": "라이닝결함",
+      "name_eng": "Lining Defect",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 75, "score_flxbl": 75 },
+        "M": { "score_rigid": 45, "score_flxbl": 45 },
+        "S": { "score_rigid": 25, "score_flxbl": 25 }
+      }
+    },
+    "DF": {
+      "name_kor": "변형",
+      "name_eng": "Deformation",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 80, "score_flxbl": 75 },
+        "M": { "score_rigid": null, "score_flxbl": 45 },
+        "S": { "score_rigid": 50, "score_flxbl": 25 }
+      }
+    },
+    "BK": {
+      "name_kor": "파손",
+      "name_eng": "Broken Pipe",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 90, "score_flxbl": 90 },
+        "S": { "score_rigid": 70, "score_flxbl": 70 }
+      }
+    },
+    "CX": {
+      "name_kor": "붕괴",
+      "name_eng": "Collapsed Pipe",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 100, "score_flxbl": 100 }
+      }
+    },
+    "PO": {
+      "name_kor": "영구장애물",
+      "name_eng": "Permanent Obstruction",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 65, "score_flxbl": 65 },
+        "M": { "score_rigid": 25, "score_flxbl": 25 },
+        "S": { "score_rigid": 15, "score_flxbl": 15 }
+      }
+    },
+    "HL": {
+      "name_kor": "천공",
+      "name_eng": "Hole",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 90, "score_flxbl": 90 },
+        "M": { "score_rigid": 55, "score_flxbl": 55 },
+        "S": { "score_rigid": 30, "score_flxbl": 30 }
+      }
+    },
+    "LP": {
+      "name_kor": "연결관돌출",
+      "name_eng": "Lateral, Protruding",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 25, "score_flxbl": 25 },
+        "M": { "score_rigid": 10, "score_flxbl": 10 },
+        "S": { "score_rigid": 3, "score_flxbl": 3 }
+      }
+    },
+    "LS": {
+      "name_kor": "연결관접합부",
+      "name_eng": "Lateral, Sealing Defective",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 30, "score_flxbl": 30 },
+        "M": { "score_rigid": 10, "score_flxbl": 10 },
+        "S": { "score_rigid": 3, "score_flxbl": 3 }
+      }
+    },
+    "JS": {
+      "name_kor": "이음부이탈",
+      "name_eng": "Joint, Separated",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 35, "score_flxbl": 35 },
+        "M": { "score_rigid": 17, "score_flxbl": 17 },
+        "S": { "score_rigid": 6, "score_flxbl": 6 }
+      }
+    },
+    "JF": {
+      "name_kor": "이음부손상",
+      "name_eng": "Joint, Faulty",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 40, "score_flxbl": 40 },
+        "M": { "score_rigid": 18, "score_flxbl": 18 },
+        "S": { "score_rigid": 7, "score_flxbl": 7 }
+      }
+    },
+    "JD": {
+      "name_kor": "이음부단차",
+      "name_eng": "Joint, Displaced",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 70, "score_flxbl": 70 },
+        "M": { "score_rigid": 40, "score_flxbl": 40 },
+        "S": { "score_rigid": 20, "score_flxbl": 20 }
+      }
+    },
+    "NS": {
+      "name_kor": "역경사",
+      "name_eng": "Negative Slope",
+      "type": ["구조적", "지점"],
+      "grades": {
+        "L": { "score_rigid": 58, "score_flxbl": 58 },
+        "M": { "score_rigid": 28, "score_flxbl": 28 },
+        "S": { "score_rigid": 18, "score_flxbl": 18 }
+      }
+    },
+    "SG": {
+      "name_kor": "침하",
+      "name_eng": "Sags",
+      "type": ["구조적", "연속"],
+      "grades": {
+        "L": { "score_rigid": 90, "score_flxbl": 90 },
+        "M": { "score_rigid": 60, "score_flxbl": 60 },
+        "S": { "score_rigid": 30, "score_flxbl": 30 }
+      }
+    },
+    "DE": {
+      "name_kor": "내피생성",
+      "name_eng": "Deposits, Encrusted",
+      "type": ["운영적", "연속"],
+      "grades": {
+        "L": 40,
+        "M": 12,
+        "S": 1
+      }
+    },
+    "DS": {
+      "name_kor": "토사퇴적",
+      "name_eng": "Deposits, Silty",
+      "type": ["운영적", "연속"],
+      "grades": {
+        "L": 45,
+        "M": 15,
+        "S": 3
+      }
+    },
+    "DG": {
+      "name_kor": "폐유부착",
+      "name_eng": "Debris, Greasy",
+      "type": ["운영적", "연속"],
+      "grades": {
+        "L": 60,
+        "M": 18,
+        "S": 8
+      }
+    },
+    "TO": {
+      "name_kor": "임시장애물",
+      "name_eng": "Temporary Obstruction",
+      "type": ["운영적", "지점"],
+      "grades": {
+        "L": 50,
+        "M": 25,
+        "S": 5
+      }
+    },
+    "RT": {
+      "name_kor": "뿌리침입",
+      "name_eng": "Roots Intrusion",
+      "type": ["운영적", "연속"],
+      "grades": {
+        "L": 65,
+        "M": 33,
+        "S": 13
+      }
+    },
+    "IF": {
+      "name_kor": "침입수",
+      "name_eng": "Infiltration",
+      "type": ["운영적", "지점"],
+      "grades": {
+        "L": 100,
+        "M": 28,
+        "S": 10
+      }
+    },
+    "PB": {
+      "name_kor": "막힘",
+      "name_eng": "Pipe Block",
+      "type": ["운영적", "지점"],
+      "grades": {
+        "L": 100
+      }
+    }
+  },
+  "상태": {
+    "ISF": {
+      "name_kor": "조사시작(순방향)",
+      "name_eng": "Inspection Starts Forward"
+    },
+    "ISB": {
+      "name_kor": "조사시작(역방향)",
+      "name_eng": "Inspection Starts Backward"
+    },
+    "ICF": {
+      "name_kor": "조사완료(순방향)",
+      "name_eng": "Inspection Completed Forward"
+    },
+    "ICB": {
+      "name_kor": "조사완료(역방향)",
+      "name_eng": "Inspection Completed Backward"
+    },
+    "DCI": {
+      "name_kor": "조사중단",
+      "name_eng": "Discontinuation of Inspection"
+    },
+    "STF": {
+      "name_kor": "구조특징",
+      "name_eng": "Structural Feature"
+    },
+    "DMC": {
+      "name_kor": "치수변화",
+      "name_eng": "Dimensional Change"
+    },
+    "NCU": {
+      "name_kor": "연결관미사용",
+      "name_eng": "No Connector Used"
+    },
+    "LNC": {
+      "name_kor": "라이닝변화",
+      "name_eng": "Lining Change"
+    },
+    "CRP": {
+      "name_kor": "연결관존재함",
+      "name_eng": "Connector Present"
+    },
+    "PTC": {
+      "name_kor": "관종변경",
+      "name_eng": "Pipe Type Change"
+    },
+    "JTP": {
+      "name_kor": "이음부(접합부)존재",
+      "name_eng": "Joint, Present"
+    },
+    "PMT": {
+      "name_kor": "보수 후",
+      "name_eng": "Post-Maintenance"
+    },
+    "MCL": {
+      "name_kor": "기타",
+      "name_eng": "Miscellaneous"
+    },
+    "NAB": {
+      "name_kor": "이상없음",
+      "name_eng": "No Abnormality"
+    }
+  }
+}
